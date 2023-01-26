@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;   
+    background-color: transparent;    
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4.5vw;
+    gap: 1vw;
+}
+
+.star-container {
+    display: flex;
+    place-content: center;
+    background-color: hsl(216, 12%, 54%);
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;    
+}
+
+.title {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    margin-left: 1.5em;    
+}
+
+.text {
+    margin: 0;
+    margin-left: 1.9em;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.selectors-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5em;
+    height: 2.5em;
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 50%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.submit {
+    width: 85%;
+    height: 3.5em;
+    border-radius: 2em;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
