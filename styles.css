@@ -26,7 +26,7 @@ body {
 .star-container {
     display: flex;
     place-content: center;
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(216, 15%, 32%);
     width: 2.5em;
     height: 2.5em;
     border-radius: 50%; 
@@ -38,7 +38,7 @@ body {
     font-size: 25px;
     color: white;
     font-weight: 700;
-    margin-left: 1em;    
+    margin-left: 0.8em;    
 }
 
 .text {
@@ -47,6 +47,7 @@ body {
     color: hsl(217, 12%, 63%);
     font-size: 15px;
     margin-right: 1.1em;
+    line-height: 1.6em;
 }
 
 .selectors-container {
@@ -61,7 +62,7 @@ body {
     justify-content: center;
     width: 3em;
     height: 3em;
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(216, 15%, 32%);
     border-radius: 50%;
     color: white;
     font-size: 15px;    
@@ -79,6 +80,7 @@ body {
     border-radius: 2em;
     background-color: hsl(25, 97%, 53%);
     color: white;
+    border: none;
 }
 
 .attribution { 
