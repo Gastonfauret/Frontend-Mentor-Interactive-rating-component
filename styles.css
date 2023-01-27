@@ -1,3 +1,5 @@
+/* index.html */
+
 body {
     background-color: hsl(216, 12%, 8%);
     box-sizing: border-box;
@@ -74,6 +76,11 @@ body {
     font-size: 15px;    
 }
 
+.selector:hover {
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
 .button-container {
     display: flex;
     justify-content: center;
@@ -90,6 +97,40 @@ body {
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
     letter-spacing: 3px;
+}
+
+/* page1.html */
+
+.second-page-container {
+    background-image: linear-gradient(0deg, hsl(213, 19%, 18%), hsl(213, 19%, 18%), hsl(213, 19%, 18%), hsl(213, 19%, 18%),hsl(213, 19%, 18%));
+    width: 97%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4.5vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.points-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 15%, 32%);
+    width: 52%;
+    height: 8%;
+    border-radius: 2em;
+    color: hsl(25, 97%, 53%);
+}
+
+.second-text {
+    margin: 0;
+    margin-left: 0.5em;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    margin-right: 0.5em;
+    line-height: 1.6em;
+    text-align: center;
 }
 
 .attribution { 
