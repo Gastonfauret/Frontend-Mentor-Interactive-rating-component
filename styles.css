@@ -73,7 +73,8 @@ body {
     background-color: hsl(216, 15%, 32%);
     border-radius: 50%;
     color: white;
-    font-size: 15px;    
+    font-size: 15px;
+    border: none;   
 }
 
 .selector:hover {
