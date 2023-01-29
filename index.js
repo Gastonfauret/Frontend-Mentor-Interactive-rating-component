@@ -1,12 +1,8 @@
-const oneButton = document.querySelector("one");
-const selectedNumber = document.querySelector("selectedNumber");
-const submit = document.querySelector("submit");
+const oneButton = document.getElementsByClassName("one")[0];
+const selectedNumber = document.getElementsByClassName("selectedNumber");
+const submit = document.getElementsByClassName("submit");
 selectedNumber.innerHTML;
 
-oneButton.addEventListener("click", () => {
-    selectedNumber.innerHTML = "You selected 1 of 5";
-})
-
-submit.addEventListener("click", () => {
-    console.log("Hola Que tal");
-})
+function message() {
+    console.log("Hola Que Tal");
+}
